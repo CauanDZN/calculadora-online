@@ -14,7 +14,7 @@
         <h1 id="titulo">Calculadora Online do Cauan</h1>
         <div class="main">
             <form name="form">
-                <input class="textview" name='textview'>
+                <input id="display" class="textview" name='textview' readonly onkeydown="handleKeyPress(event)">
             </form>
                 <table>
                     <td>
